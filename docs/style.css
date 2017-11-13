@@ -22,6 +22,20 @@ p {
 	color: #444;
 }
 
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+
 #cv {
 	width: 90%;
 	max-width: 800px;
@@ -154,6 +168,7 @@ section:last-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
